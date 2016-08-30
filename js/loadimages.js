@@ -1,3 +1,5 @@
 $(document).ready(function() {
-  $('.swipebox').swipebox();
+  $('.swipebox').swipebox({
+    hideBarsDelay : 3000
+  });
 });
